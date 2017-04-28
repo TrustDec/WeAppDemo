@@ -1,0 +1,10 @@
+<map 
+  id="map" 
+  scale="14" 
+  show-location 
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  style="width:100%;height:60vh;">
+</map>
+<button type="primary" bindtap="getCenterLocation">获取位置</button>
+<button type="primary" bindtap="test">移动位置</button>
